@@ -20,10 +20,12 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    2. Configure the minimum OS resources required to run the different types of backtests in the demo:
       - Click Settings/Resources in Docker Desktop and set 
       
-   | Example Type           | # Trade Strategies | Backtest Type |  CPU Cores  |  Memory  |  Swap  | Disk image size |
-   | ---------------------- | ------------------ | ------------- | ----------- | -------- | ------ | --------------- |
-   | Single Trade Strategy  |      1             |    regular    |      2      |   4 GB   |  2 GB  |      10 GB      |
-   | Portfolios             |    3 to mid 200s.  |    regular    |      4      |   8 GB   |  2 GB  |      10 GB      |
+   | Example Type           | # Trade Strategies | Backtest Type   |  CPU Cores  |  Memory  |  Swap  | Disk image size |
+   | ---------------------- | ------------------ | --------------- | ----------- | -------- | ------ | --------------- |
+   | Single Trade Strategy  |    1               | regular         |      2      |   4 GB   |  2 GB  |      10 GB      |
+   | Portfolio              |    3 to mid 200    | regular         |      4      |   8 GB   |  2 GB  |      10 GB      |
+   | Walk Forward Analysis  |    18 to 66        | WFA Backtest    |      4      |   8 GB   |  2 GB  |      10 GB      |
+   | Sliding Window & WFA   |    33 to mid 600s  | SW-WFA Backtest |      6      |  12 GB   |  2 GB  |      10 GB      |
    
    4. Download from this repository the file: **docker-compose.yml**
    5. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
