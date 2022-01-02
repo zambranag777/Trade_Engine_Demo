@@ -28,7 +28,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    5. Execute the following command to verify the containers started successfully: (open another bash or power shell)
       - **docker ps**
       - There should be two entries in the output similar to these:
-      - 
+      
 | CONTAINER ID | IMAGE                           |     COMMAND           |   CREATED  |  STATUS    |     PORTS            |      NAMES                   |
 | ------------ | ------------------------------- | ----------------------| -----------| ---------- | ---------------------| ---------------------------- |
 | 9fc95325dc69 | zambranag/postgres-te-demo:latest| docker-entrypoint.s… | 7 hours ago| Up 7 hours| 0.0.0.0:7778->5432/tcp| deployment-postgress_db_1    |
