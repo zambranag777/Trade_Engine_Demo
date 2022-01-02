@@ -17,16 +17,16 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 ## Execution Instructions
 
    1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
-   2. Download from this repository the file: docker-compose.yml
+   2. Download from this repository the file: **docker-compose.yml**
    3. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
    4. Run the following command to start:
-      - docker-compose up
+      - **docker-compose up**
       - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
          - Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
          - Cache the images locally
          - Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
    5. Execute the following command to verify the containers started successfully: (open another bash or power shell)
-      - docker ps
+      - **docker ps**
       - There should be two entries in the output similar to these:
      
 | CONTAINER ID | IMAGE                           |     COMMAND           |   CREATED  |  STATUS    |     PORTS            |      NAMES                   |
