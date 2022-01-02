@@ -41,8 +41,8 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       
 | CONTAINER ID | IMAGE                           |     COMMAND           |   CREATED  |  STATUS    |     PORTS            |      NAMES                   |
 | ------------ | ------------------------------- | ----------------------| -----------| ---------- | ---------------------| ---------------------------- |
-| 9fc95325dc69 | zambranag/postgres-te-demo:latest| docker-entrypoint.s… | 7 hours ago| Up 7 hours| 0.0.0.0:7778->5432/tcp| deployment-postgress_db_1    |
-| c9ad96f46f8b | zambranag/trade-engine:latest    | jupyter notebook --… | 7 hours ago| Up 7 hours| 0.0.0.0:8880->8888/tcp| deployment-trade_engine_jn_1 |
+| 9fc95325dc69 | zambranag/postgres-te-demo:latest| docker-entrypoint.s… | 7 hours ago| Up 7 hours| 0.0.0.0:7778->5432/tcp| deployment- postgress_db_1    |
+| c9ad96f46f8b | zambranag/trade-engine:latest    | jupyter notebook --… | 7 hours ago| Up 7 hours| 0.0.0.0:8880->8888/tcp| deployment- trade_engine_jn_1 |
 
    7. Open a browser window and enter the following URL:
       - **http://127.0.0.1:8880/**
