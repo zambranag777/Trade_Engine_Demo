@@ -52,3 +52,12 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    9. Follow the execution instructions in the notebook to run the example backtests
   10. Run the following command to stop the containers:
       - **docker-compose stop**
+
+## Useful Docker Commands
+
+   1. **docker stats**
+      - Execute in a different bash or power shell while running a backtest to monitor the container resources
+   2. **docker cp deployment_trade_engine_jn_1:Projects/Trade_Engine/JupyterNotebooks/. excel/
+      - Command to copy backtest results to the local host
+      - All the example backtest have a cell to save their results to Excel format, by default store in the directory where the notebook is running
+      - These files get saved inside the docker container, and can be copy from the container to the local host for analysis in Excel
