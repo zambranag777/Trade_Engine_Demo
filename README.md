@@ -34,5 +34,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 | 9fc95325dc69 | zambranag/postgres-te-demo:latest| docker-entrypoint.s… | 7 hours ago| Up 7 hours| 0.0.0.0:7778->5432/tcp| deployment-postgress_db_1    |
 | c9ad96f46f8b | zambranag/trade-engine:latest    | jupyter notebook --… | 7 hours ago| Up 7 hours| 0.0.0.0:8880->8888/tcp| deployment-trade_engine_jn_1 |
 
-   6. Execute the following command to verify the containers started successfully: (open another bash or power shell)
-      - **docker ps**
+   6. Open a browser window and enter the following URL:
+      - **http://127.0.0.1:8880/**
+   7. Enter the following password to load the trade engine demo Jupyter Notebook: **easy**
+      - This will 5 to 20 seconds to load, it is a large notebook with many images use for documentation
