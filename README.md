@@ -61,3 +61,6 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       - Command to copy backtest results to the local host
       - All the example backtest have a cell to save their results to Excel format, by default store in the directory where the notebook is running
       - These files get saved inside the docker container, and can be copy from the container to the local host for analysis in Excel
+
+## Feedback
+zambranag@yahoo.com
