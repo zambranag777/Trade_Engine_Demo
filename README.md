@@ -27,15 +27,15 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    | Walk Forward Analysis  |    18 to 66        | WFA Backtest    |      4      |   8 GB   |  2 GB  |      10 GB      |
    | Sliding Window & WFA   |    33 to mid 600s  | SW-WFA Backtest |      6      |  12 GB   |  2 GB  |      10 GB      |
    
-   4. Download from this repository the file: **docker-compose.yml**
-   5. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
-   6. Run the following command to start:
+   3. Download from this repository the file: **docker-compose.yml**
+   4. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
+   5. Run the following command to start:
       - **docker-compose up**
       - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
          - Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
          - Cache the images locally
          - Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
-   7. Execute the following command to verify the containers started successfully: (open another bash or power shell)
+   6. Execute the following command to verify the containers started successfully: (open another bash or power shell)
       - **docker ps**
       - There should be two entries in the output similar to these:
       
@@ -44,10 +44,10 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 | 9fc95325dc69 | zambranag/postgres-te-demo:latest| docker-entrypoint.s… | 7 hours ago| Up 7 hours| 0.0.0.0:7778->5432/tcp| deployment-postgress_db_1    |
 | c9ad96f46f8b | zambranag/trade-engine:latest    | jupyter notebook --… | 7 hours ago| Up 7 hours| 0.0.0.0:8880->8888/tcp| deployment-trade_engine_jn_1 |
 
-   6. Open a browser window and enter the following URL:
+   7. Open a browser window and enter the following URL:
       - **http://127.0.0.1:8880/**
-   7. Enter the following password to load the trade engine demo Jupyter Notebook: **easy**
+   8. Enter the following password to load the trade engine demo Jupyter Notebook: **easy**
       - This will take 5 to 20 seconds to load, it is a large notebook with many images use for documentation
-   8. Follow the execution instructions in the notebook to run the example backtests
-   9. Run the following command to stop the containers:
+   9. Follow the execution instructions in the notebook to run the example backtests
+   10. Run the following command to stop the containers:
       -  **docker-compose stop**
