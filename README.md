@@ -38,3 +38,6 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       - **http://127.0.0.1:8880/**
    7. Enter the following password to load the trade engine demo Jupyter Notebook: **easy**
       - This will 5 to 20 seconds to load, it is a large notebook with many images use for documentation
+   8. Follow the execution instructions in the notebook to run the example backtests
+   9. Run the following command to stop the containers:
+      -  **docker-compose stop**
