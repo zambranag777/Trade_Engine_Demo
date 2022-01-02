@@ -29,14 +29,16 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    | Sliding Window & WFA   |    33 to mid 600s  | SW-WFA Backtest |      6      |  12 GB   |  2 GB  |      10 GB      |
    
    3. Download from this repository the file: **docker-compose.yml**
-   4. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
-   5. Run the following command to start:
+      - Clone the project: git clone https://github.com/zambranag777/Trade_Engine_Demo
+      - Or just download the docker-compose.yml file
+   5. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
+   6. Run the following command to start:
       - **docker-compose up**
       - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
          - Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
          - Cache the images locally
          - Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
-   6. Execute the following command to verify the containers started successfully: (open another bash or power shell)
+   7. Execute the following command to verify the containers started successfully: (open another bash or power shell)
       - **docker ps**
       - There should be two entries in the output similar to these:
       
