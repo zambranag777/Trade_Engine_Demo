@@ -13,3 +13,15 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    - A variety of backtests, including: regular backtests, Walk-Forward-Analysis (WFA) re-fitting AI models, Slide Window and WFA, etc. 
       - See Jupypter Notebook demo for detailed explanations and examples of the different types of backtests 
    - Support persisting all information to execute a backtest in a Relational Database, as well as the results
+
+## Execution Instructions
+
+   1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
+   2. Download from this repository the file: docker-compose.yml
+   3. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
+   4. Run the following command to start:
+      - docker-compose up
+      <br>
+      - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
+        1. Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
+        2. asdf
