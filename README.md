@@ -28,8 +28,8 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    5. Execute the following command to verify the containers started successfully: (open another bash or power shell)
       - docker ps
       - There should be two entries in the output similar to these:
-        
+<!--        
 CONTAINER ID   IMAGE                                COMMAND                  CREATED       STATUS       PORTS                    NAMES
-<br>
 9fc95325dc69   zambranag/postgres_te_demo:latest    "docker-entrypoint.s…"   7 hours ago   Up 7 hours   0.0.0.0:7778->5432/tcp  deployment_postgress_db_1
 c9ad96f46f8b   zambranag/trade_engine:latest        "jupyter notebook --…"   7 hours ago   Up 7 hours   0.0.0.0:8880->8888/tcp   deployment_trade_engine_jn_1
+-->
