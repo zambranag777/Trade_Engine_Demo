@@ -21,7 +21,8 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    3. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
    4. Run the following command to start:
       - docker-compose up
-      <br>
       - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
-        1. Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
-        2. asdf
+         1 Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
+         2 Cache the images locally
+         3 Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
+         4 
