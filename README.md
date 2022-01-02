@@ -22,7 +22,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    4. Run the following command to start:
       - **docker-compose up**
       <br>
-      Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
+      - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
          - Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
          - Cache the images locally
          - Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
