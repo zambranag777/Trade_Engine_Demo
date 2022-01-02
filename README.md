@@ -20,7 +20,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    2. Configure the minimum OS resources required to run the different types of backtests in the demo:
       - Click Settings/Resources in Docker Desktop and set 
       
-   | Example Type           | # Trade Strategies | Backtest Type   |  CPU Cores  |  Memory  |  Swap  | Disk image size |
+   | Example Type           | # Trade Strategies per backtest | Backtest Type   |  CPU Cores  |  Memory  |  Swap  | Disk image size |
    | ---------------------- | ------------------ | --------------- | ----------- | -------- | ------ | --------------- |
    | Single Trade Strategy  |    1               | regular         |      2      |   4 GB   |  2 GB  |      10 GB      |
    | Portfolio              |    3 to mid 200    | regular         |      4      |   8 GB   |  2 GB  |      10 GB      |
