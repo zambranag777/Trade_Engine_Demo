@@ -18,7 +18,8 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 
    1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
    2. Configure the minimum OS resources required to run the different types of backtests in the demo:
-      - Click Settings/Resources in Docker Desktop and set 
+      - Click Settings/Resources in Docker Desktop and update
+      - Note: Most of the examples, except for the Sliding Window ones, can probably execute with 1 CPU Core and 2GB of memory. It is the portfolios with hundreds of trade strategies and AI models that are more resource intensive.
       
    | Example Type           | # Trade Strategies per backtest | Backtest Type   |  CPU Cores  |  Memory  |  Swap  | Disk image size |
    | ---------------------- | ------------------ | --------------- | ----------- | -------- | ------ | --------------- |
