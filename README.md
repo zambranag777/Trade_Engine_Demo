@@ -17,15 +17,19 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 ## Execution Instructions
 
    1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
-   2. Download from this repository the file: **docker-compose.yml**
-   3. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
-   4. Run the following command to start:
+   2. Configure the minimum OS resources required to execute different types of backtests in the demo:
+      - Click Settings/Resources in Docker Desktop and set 
+   | Example Type           | Backtest Type |  CPU Cores  |  Memory  | Swap     | Disk image size |
+   | Single Trade Strategy  | regular       |  2          |  4 GB    | 2 GB     | 10 GB           |
+   4. Download from this repository the file: **docker-compose.yml**
+   5. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
+   6. Run the following command to start:
       - **docker-compose up**
       - Docker-Compose will execute the following actions as instructed in the docker-compose.yml file:
          - Download two images from Docker Hub, one for the database, and another for the Jupyter Notebook pre-configured environment
          - Cache the images locally
          - Create two containers, one for the database, and the other for the Jupyter Notebook environment. 
-   5. Execute the following command to verify the containers started successfully: (open another bash or power shell)
+   7. Execute the following command to verify the containers started successfully: (open another bash or power shell)
       - **docker ps**
       - There should be two entries in the output similar to these:
       
@@ -37,7 +41,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    6. Open a browser window and enter the following URL:
       - **http://127.0.0.1:8880/**
    7. Enter the following password to load the trade engine demo Jupyter Notebook: **easy**
-      - This will 5 to 20 seconds to load, it is a large notebook with many images use for documentation
+      - This will take 5 to 20 seconds to load, it is a large notebook with many images use for documentation
    8. Follow the execution instructions in the notebook to run the example backtests
    9. Run the following command to stop the containers:
       -  **docker-compose stop**
