@@ -17,12 +17,13 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 ## Execution Instructions
 
    1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
-   2. Configure the minimum OS resources required to execute different types of backtests in the demo:
+   2. Configure the minimum OS resources required to run the different types of backtests in the demo:
       - Click Settings/Resources in Docker Desktop and set 
       
-   | Example Type           | Backtest Type |  CPU Cores  |  Memory  | Swap     | Disk image size |
-   | ---------------------- | ------------- | ----------- | -------- | -------- | --------------- |
-   | Single Trade Strategy  | regular       |  2          |  4 GB    | 2 GB     | 10 GB           |
+   | Example Type           | # Trade Strategies | Backtest Type |  CPU Cores  |  Memory  |  Swap  | Disk image size |
+   | ---------------------- | ------------------ | ------------- | ----------- | -------- | ------ | --------------- |
+   | Single Trade Strategy  |      1             |    regular    |      2      |   4 GB   |  2 GB  |      10 GB      |
+   | Portfolios             |    3 to mid 200s.  |    regular    |      4      |   8 GB   |  2 GB  |      10 GB      |
    
    4. Download from this repository the file: **docker-compose.yml**
    5. Open a bash shell or power-shell and change to the directory where the yml file was downloaded
