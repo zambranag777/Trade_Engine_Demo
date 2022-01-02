@@ -6,7 +6,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    - Support different kinds of backtests and optimizations of hyper-parameters per trade strategy
    - Analysis of out-of-sample performance for trade strategies and/or portfolio
    - Support Technical Analysis, as well as AI Based algorithms to model all actions in a trade, that is:
-      - Enter, Exit, Stop-Loss, Trail-Stop-Loss, Combine Stop & Trail Stop Loss, Position Sizesing
+      - Enter, Exit, Stop-Loss, Trail-Stop-Loss, Combine Stop & Trail Stop Loss, Position Sizes
    - Support ensemble models for any trade action in a Trade Strategy
    - Support mixing Technical Analysis and AI Based Models in ensembles
    - Ability to re-fit AI models during a backtest
