@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+
+   trade_engine_jn :
+        image: zambranag/trade_engine:latest
+        ports:
+          - target:     8888
+            published:  8880
+        networks:
+           - trade-engine-net 
+        environment:
+           - JUPYTER_TOKEN=easy
+
+   postgress_db :
+        image: zambranag/postgres_te_demo:latest 
+        ports:
+          - target:     5432 
+            published:  7778 
+        networks:
+          - trade-engine-net 
+
+networks:
+   trade-engine-net: 
+
