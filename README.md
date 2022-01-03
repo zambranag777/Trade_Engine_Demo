@@ -16,7 +16,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 
 ## Trade Engine Demo Jupyter Notebook
 
-   - URL:  https://www.kaggle.com/gustavozambrana/notebook1d693029da/edit#
+   - URL:  https://github.com/zambranag777/Research_Projects/blob/main/TradeEngine_Demo.ipynb
    - Note: the URL is for viewing purpose only, but not for executing; for executing follow the instructions below.
 
 ## Execution Instructions
