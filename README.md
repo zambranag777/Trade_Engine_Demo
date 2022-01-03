@@ -14,6 +14,11 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       - See the loaded trade engine Jupypter Notebook for detailed explanations and examples of the different types of backtests 
    - Support persisting all information to execute a backtest in a Relational Database, as well as the results
 
+## Trade Engine Demo Jupyter Notebook
+
+   - URL:  https://www.kaggle.com/gustavozambrana/notebook1d693029da/edit#
+   - Note: the URL is for viewing purpose only, but not for executing; for executing follow the instructions below.
+
 ## Execution Instructions
 
    1. The trade engine demo is a container application, and it requires the user to have Docker installed ( https://www.docker.com/products/docker-desktop )
