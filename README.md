@@ -22,7 +22,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
         - By designed hyper parameters were selected randomly.
         - Backtest periods were selected across different years and market regimes to highlight how strategies might work one year, some period, and then behave differently in others.
         - For trade strategies with AI models, the training and validation periods were varied across the backtests examples.
-   - A summary description of each of the backtest examples is provided, and a detail description of each backtest at the beginning
+   - A summary description of each of the backtest examples is provided, and a detail description of each backtest at the start of the backtest
    - The design goal was clarity over compactness, thus each backtest does not depend on previous cells, only in the required imports, detailed in the notebook
    - The examples are defined in order of complexity, more features and variatons added in order of exposition
 
