@@ -18,6 +18,10 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 
    - URL:  https://github.com/zambranag777/Research_Projects/blob/main/TradeEngine_Demo.ipynb
    - Note: the URL is for viewing purpose only, but not for executing; for executing follow the instructions below.
+   - All examples and trade strategies are for demonstration only.
+        - By designed hyper parameters were selected randomly.
+        - Backtest periods were selected across different years and market regimes to highlight how strategies might work one year, some period, and then behave differently others.
+        - For trade strategies with AI models, the training and validation periods were varied across the backtests examples.
 
 ## Execution Instructions
 
