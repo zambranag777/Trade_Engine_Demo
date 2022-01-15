@@ -78,7 +78,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       - Windows: **docker cp downloads_trade_engine_jn_1:Projects/Trade_Engine/JupyterNotebooks/. excel/**
       - the container naming convention is defaulted by the docker-host, might change, check with docker ps for the actual name
       - Command to copy backtest results to the local host
-      - All the example backtest have a cell to save their results to Excel format, by default store in the directory where the notebook is running
+      - All the example backtests have a cell to save their results to Excel format, by default store in the directory where the notebook is running
       - These files get saved inside the docker container, and can be copy from the container to the local host for analysis in Excel
 
 ## 2022 Planned Features
