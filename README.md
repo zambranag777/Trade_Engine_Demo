@@ -81,7 +81,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
       - All the example backtest have a cell to save their results to Excel format, by default store in the directory where the notebook is running
       - These files get saved inside the docker container, and can be copy from the container to the local host for analysis in Excel
 
-## 2022 Planned Fetures
+## 2022 Planned Features
 
    1. **Cloud scalable version**
    2. **S3 Integration support**
