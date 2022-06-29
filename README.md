@@ -13,6 +13,10 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    - A variety of backtests, including: regular backtests, Walk-Forward-Analysis (WFA) re-fitting AI models, Slide Window and WFA, etc. 
       - See the loaded trade engine Jupypter Notebook for detailed explanations and examples of the different types of backtests 
    - Support persisting all information to execute a backtest in a Relational Database, as well as the results
+   - Support persisting all trade strategies, portfolios, and backtests to MongoDB - ability to save thousands of trade strategies and portfolios
+   - Caching all Market data in MongoDB, and ability to freeze/version the market data associated with a given test
+   - Caching of all fitted AI Models in local file system as well as MongoDB
+   - Generic/pluggable rebalance methodology for timing and methodology
 
 ## Trade Engine Demo Jupyter Notebook
 
