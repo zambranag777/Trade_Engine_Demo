@@ -88,9 +88,12 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
 ## 2022 Planned Features
 
    1. Cloud scalable version
-   2. S3 Integration support
+   2. Storage of all assets in MongoDB and/or Relational Databases in AWS
    3. Support for additional Relational Databases
    4. Additional types of backtests
+   5. Dynamic Portfolios 
+   6. Stacked Portfolios
+   7. Extendable rebalance logic
    
 ## Feedback
 zambranag@yahoo.com
