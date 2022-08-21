@@ -94,6 +94,7 @@ It is a Jupyter Notebook which demonstrates a trading engine architected to cond
    5. Dynamic Portfolios 
    6. Stacked Portfolios
    7. Extendable rebalance logic
+   8. 100% coverage via unit-tests and integration tests
    
 ## Feedback
 zambranag@yahoo.com
